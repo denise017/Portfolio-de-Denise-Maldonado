@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio de Denise Maldonado</title>
+
+    <link rel="icon" type="image/png" href="img/coding.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- BARRA SUPERIOR ANIMADA -->
+    <div class="topbar">
+      <div class="topbar-track">
+        <span
+          >✦ Creando interfaces funcionales ✦ Aprendiendo cada día ✦ Frontend ·
+          Backend · QA ✦</span
+        >
+        <span
+          >✦ Creando interfaces funcionales ✦ Aprendiendo cada día ✦ Frontend ·
+          Backend · QA ✦</span
+        >
+      </div>
+    </div>
+
+    <!-- NAVEGACIÓN -->
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#skills">Conocimientos</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- HERO / INICIO -->
+    <section id="inicio" class="hero fade-in">
+      <div class="hero-text">
+        <h1>¡Hola, soy <span>Denise Maldonado!</span></h1>
+
+        <p class="sub">
+          Desarrollo experiencias web combinando Frontend, Backend y Testing
+        </p>
+
+        <p>
+          Actualmente me estoy formando como desarrolladora frontend y backend,
+          integrando diseño de interfaces y lógica de programación.
+        </p>
+
+        <a href="#proyectos" class="btn">Ver proyectos</a>
+      </div>
+
+      <div class="hero-img">
+        <img src="img/hero.svg" alt="Ilustración de programación" />
+      </div>
+    </section>
+
+    <!-- CONOCIMIENTOS -->
+    <section id="skills" class="fade-in">
+      <h2>Mis conocimientos</h2>
+
+      <p class="descripcion">
+        Me encuentro en constante formación en desarrollo web, enfocándome en la
+        construcción de interfaces modernas y funcionales. Además, cuento con
+        experiencia en QA Tester y desarrollo No Code / Low Code mediante
+        WordPress y herramientas de automatización.
+      </p>
+
+      <div class="skills-grid">
+        <div class="skill">
+          <img src="img/icons8-html.svg" alt="HTML" />
+          <p>HTML</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/css.svg" alt="CSS" />
+          <p>CSS</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/javascript.svg" alt="JavaScript" />
+          <p>JavaScript</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/git.svg" alt="Git" />
+          <p>Git</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/node-js.png" alt="Node.js" />
+          <p>Node.js</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/postman.png" alt="Postman" />
+          <p>Postman</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/wordpress.png" alt="WordPress" />
+          <p>WordPress</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/make.svg" alt="Make" />
+          <p>Make</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="fade-in">
+      <h2>Proyectos</h2>
+      <div class="proyectos-texto">
+        <p>Los proyectos reflejan mi formación en desarrollo y testing.</p>
+        <p>
+          En QA Testing realicé pruebas funcionales y validación de APIs con
+          Postman, documentando casos de prueba y errores. En No Code desarrollé
+          páginas en WordPress con automatizaciones usando Make y Zapier. En
+          JavaScript creé un sistema de gestión de biblioteca en consola,
+          trabajando lógica, funciones y estructuras de datos.
+        </p>
+      </div>
+
+      <div class="proyectos-grid">
+        <div class="card">
+          <img src="img/software-testing.png" alt="Proyecto QA" />
+          <h3>Proyecto QA</h3>
+          <a
+            href="https://github.com/denise017/ProyectoFinal-QA-DeniseMaldonado"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver en GitHub
+          </a>
+        </div>
+
+        <div class="card">
+          <img src="img/automatization.png" alt="Proyecto No Code Low Code" />
+          <h3>No Code / Low Code</h3>
+          <a
+            href="https://docs.google.com/document/d/10Tdq3HfaKWCcXnrcYdXEBnopj8jwHAEHmutfWRGpBXE/edit?tab=t.0#heading=h.fg5ypm6ud1xw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver en Google Docs
+          </a>
+        </div>
+
+        <div class="card">
+          <img src="img/js-file.png" alt="Proyecto JavaScript" />
+          <h3>Proyecto JavaScript</h3>
+          <a
+            href="https://github.com/denise017/actividades-javascript/tree/main/trabajoPracticoIntegrador_MaldonadoDenise"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver en GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto fade-in">
+      <div class="contacto-header">
+        <h2>¿Te interesa trabajar conmigo?</h2>
+        <p>Podés escribirme y te responderé a la brevedad.</p>
+      </div>
+
+      <form class="formulario">
+        <fieldset class="formulario-fieldset">
+          <legend class="formulario-legend">Datos de contacto</legend>
+
+          <div class="formulario-grupo">
+            <label>👤 Nombre y apellido</label>
+            <input type="text" placeholder="Tu nombre y apellido" />
+          </div>
+
+          <div class="formulario-grupo">
+            <label>📧 Email</label>
+            <input type="email" placeholder="Tu email" />
+          </div>
+
+          <div class="formulario-grupo">
+            <label>💬 Mensaje</label>
+            <textarea placeholder="Escribí tu mensaje..."></textarea>
+          </div>
+
+          <button class="btn-enviar">Enviar mensaje</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© Denise Maldonado</p>
+    </footer>
+  </body>
+</html>
